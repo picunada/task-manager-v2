@@ -1,6 +1,7 @@
 # Task manager 
 
 This is test assignment for a frontend developer position
+[deploy](https://task-manager-picunada.netlify.app/)
 
 ## Project setup
 
