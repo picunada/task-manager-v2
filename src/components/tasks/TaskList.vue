@@ -149,6 +149,7 @@ function onDragLeave() {
 
       &:focus {
         box-shadow: none;
+        outline: none;
       }
 
       .container {
