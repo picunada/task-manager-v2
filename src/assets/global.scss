@@ -1,0 +1,29 @@
+$backgorund-dark: 21, 20, 20;
+$secondary-backgorund-dark: 29, 29, 29;
+$primary-dark: 255, 255, 255;
+$secondary-dark: 110, 110, 110;
+$tritary-dark: 19, 19, 19;
+$accent-dark: 68, 174, 250;
+
+$accept: 165, 255, 126;
+$cancel: 255, 126, 126;
+
+$default-unit: 4px;
+
+:root {
+  --background: #{$backgorund-dark};
+  --secondary-background: #{$secondary-backgorund-dark};
+  --primary: #{$primary-dark};
+  --secondary: #{$secondary-dark};
+  --tritary: #{$tritary-dark};
+  --accent: #{$accent-dark};
+  --accept: #{$accept};
+  --cancel: #{$cancel};
+}
+
+
+body {
+  color: rgb(var(--primary));
+  background-color: rgb(var(--background));
+  min-height: 100vh;
+}

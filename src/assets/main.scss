@@ -1,0 +1,47 @@
+@import './base.scss';
+@import './global.scss';
+
+html {
+  font-family: 'Familjen Grotesk', sans-serif;
+}
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: calc(100vw/2560*72);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: calc(100vw/2560*60);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: calc(100vw/2560*48);
+  font-weight: bold;
+}
+
+h4 {
+  font-size: calc(100vw/2560*36);
+}
+
+h5 {
+  font-size: calc(100vw/2560*24);
+}
+
+.prevent-select {
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
