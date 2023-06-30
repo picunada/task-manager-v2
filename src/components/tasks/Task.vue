@@ -46,8 +46,8 @@ onClickOutside(taskRef, (e) => {
 </script>
 
 <template>
-  <div ref="taskRef" class="task" draggable="true" @dragstart="startDrag($event, task)" @mouseenter="onEnter"
-    @mouseleave="onLeave">
+  <div ref="taskRef" class="task" :draggable="editable ? 'false' : 'true'" @dragstart="startDrag($event, task)"
+    @mouseenter="onEnter" @mouseleave="onLeave">
     <input v-if="editable" ref="taskName" v-model="taskStore.tasks.find(t => t.id === props.task.id)!.name"
       placeholder="Name" type="text">
     <p v-else>
